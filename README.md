@@ -74,47 +74,7 @@ V-Mirror_Draft_v1/
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Shubranilpandit/V-Mirror_Draft_v1.git
-```
-
-### 2. Navigate to the Project
-
-```bash
-cd V-Mirror_Draft_v1
-```
-
-### 3. Create Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-### 4. Activate Virtual Environment
-
-#### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-#### Linux / macOS
-
-```bash
-source .venv/bin/activate
-```
-
-### 5. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6. Run the Application
+### Run the Application
 
 ```bash
 python app.py
