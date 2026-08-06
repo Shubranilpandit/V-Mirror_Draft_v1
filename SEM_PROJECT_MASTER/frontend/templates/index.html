@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Virtual Dressing Room</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="navbar">
+        <h2>✨ AI Virtual Dressing Room</h2>
+    </div>
+
+    <div class="hero-section">
+        <h1>Try Your Perfect Outfit Instantly</h1>
+        <p>Experience smart AI-based virtual clothing fitting in real time.</p>
+    </div>
+
+    <div class="main-container">
+
+        <div class="camera-box">
+            <h3>📸 Live Smart Mirror</h3>
+
+            <video id="webcam" autoplay playsinline muted></video>
+            <img id="outputFrame" alt="Processed Output">
+
+        </div>
+
+        <div class="control-box">
+            <h3>👗 Choose Your Outfit</h3>
+
+            <div id="clothButtons" class="button-grid"></div>
+
+            <button id="captureBtn" class="capture-btn">
+                Save Look
+            </button>
+
+            <h3>🖼 Saved Gallery</h3>
+
+            <div id="gallery" class="gallery-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
